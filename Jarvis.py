@@ -169,7 +169,7 @@ class MainThread(QThread):
                 random = os.startfile(os.path.join(music_dir, songs[1]))
             
             elif 'who are you' in self.query:
-                speak("I'm Ryaan a virtual assistant I crated by ramandeep singh,he is a very humble person")
+                speak("I'm Jarvis a virtual assistant I crated by ramandeep singh,he is a very humble person")
             elif 'hello'in self.query or 'hello jarvis' in self.query:
                 speak("hello sir  I am jarvis a virual assistant ?")
             elif "your name" in self.query:
